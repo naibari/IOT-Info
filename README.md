@@ -19,4 +19,4 @@ Relying on arrays of thousands of sensors, artificial intelligence, and machine 
 
 ### 5. Motion Detection
 Using sensors to detect motion or vibration in large-scale structures such as buildings, bridges, and dams can identify the small disturbances and patterns that could lead to catastrophic failures. Networks of detectors are also used in areas susceptible to landslides, avalanches, and earthquakes.
-If you want to read more please go to [ASME](https://www.asme.org/topics-resources/content/10-best-iot-examples-in-2020).
+* If you want to read more please go to [ASME](https://www.asme.org/topics-resources/content/10-best-iot-examples-in-2020).
