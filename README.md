@@ -21,3 +21,8 @@ Relying on arrays of thousands of sensors, artificial intelligence, and machine 
 Using sensors to detect motion or vibration in large-scale structures such as buildings, bridges, and dams can identify the small disturbances and patterns that could lead to catastrophic failures. Networks of detectors are also used in areas susceptible to landslides, avalanches, and earthquakes.
 * If you want to read more please go to [ASME](https://www.asme.org/topics-resources/content/10-best-iot-examples-in-2020).
 
+# How to Install Django on Windows PowerShell:
+
+## Introduction:
+The Python ecosystem has a lot of web frameworks. One that has consistently been popular is the Django framework. It’s popular for being robust, secure, and allows developers to develop projects fast.
+In this tutorial, you will learn how to install Django on Windows using pip. After that, you will verify the installation, create a project, and start a Django development server.
