@@ -44,7 +44,7 @@ def get_price(my_url,x):
 while True:
     print('Stocks prices')
 
-    bit_coin_url = 'https://finance.google.com/finance?q=CURRENCY%3ABTC&ei=A0gHWoiXL865eqqviIAF'
+    bit_coin_url = 'https://g.co/finance/BTC-USD'
     google_url= 'https://finance.google.com/finance?ei=_XQTWviBHNCWmAGui6fACA&q=google'
     facebook_url = 'https://finance.google.com/finance?q=NASDAQ%3AFB&ei=NngTWun3LsKpmAHX9ougCA'
     snapchat_url = 'https://finance.google.com/finance?q=NYSE:SNAP'
