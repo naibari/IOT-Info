@@ -35,7 +35,7 @@ def get_price(my_url,x):
 
     #print(stocks)
 
-    #price_bit_temp = stocks.text.strip('USD')
+    price_bit_temp = stocks.text.strip('USD')
     price_bit = price_bit_temp.replace(',','')
 
     return price_bit
@@ -44,7 +44,7 @@ def get_price(my_url,x):
 while True:
     print('Stocks prices')
 
-    bit_coin_url = 'https://g.co/finance/BTC-USD'
+    bit_coin_url = 'https://finance.google.com/finance?q=CURRENCY%3ABTC&ei=A0gHWoiXL865eqqviIAF'
     google_url= 'https://finance.google.com/finance?ei=_XQTWviBHNCWmAGui6fACA&q=google'
     facebook_url = 'https://finance.google.com/finance?q=NASDAQ%3AFB&ei=NngTWun3LsKpmAHX9ougCA'
     snapchat_url = 'https://finance.google.com/finance?q=NYSE:SNAP'
@@ -52,7 +52,7 @@ while True:
     apple_url = 'https://finance.google.com/finance?q=apple'
     walmart_url = 'https://finance.google.com/finance?q=walmart'
 
-   # price_bit = get_price(bit_coin_url,1)
+    price_bit = get_price(bit_coin_url,1)
     print('Price of bitcoin: ' + str(float(price_bit)))
 
     price_google = get_price(google_url,2)
@@ -102,4 +102,4 @@ while True:
         print ("tweet failed due to error=")
         print (response.status_code)
 
-    time.sleep(30)
+    time.sleep(60)
