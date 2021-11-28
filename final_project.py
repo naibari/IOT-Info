@@ -35,7 +35,6 @@ def get_price(my_url,x):
 
     #print(stocks)
 
-    price_bit_temp = stocks.text.strip('USD')
     price_bit = price_bit_temp.replace(',','')
 
     return price_bit
@@ -52,7 +51,6 @@ while True:
     apple_url = 'https://finance.google.com/finance?q=apple'
     walmart_url = 'https://finance.google.com/finance?q=walmart'
 
-    price_bit = get_price(bit_coin_url,1)
     print('Price of bitcoin: ' + str(float(price_bit)))
 
     price_google = get_price(google_url,2)
